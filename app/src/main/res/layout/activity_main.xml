@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/WIN"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/WIN"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/et_simple"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="@string/answer"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/WIN"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G1"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G1"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G1C"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G1C"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G1C"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G2"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G2"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G2C"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G2C"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G2C"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G3"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G3"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G3C"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G3C"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G3C"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G4"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G4"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/G4C"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/G4C"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/G4C"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="48dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/word2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="52dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/word3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/word3"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="52dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/word4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/word4"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="100dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+
+        android:id="@+id/et_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/et_simple"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-94dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/button"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

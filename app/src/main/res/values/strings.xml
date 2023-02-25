@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="G1">Guess 1</string>
+    <string name="G1C">Guess 1 Check</string>
+    <string name="G2">Guess 2</string>
+    <string name="G2C">Guess 2 Check</string>
+    <string name="G3">Guess 3</string>
+    <string name="G3C">Guess 3 Check</string>
+    <string name="G4">Final Guess</string>
+    <string name="G4C">Final Check</string>
+    <string name="et_simple">Enter 4 letter guess here</string>
+    <string name="button">Guess!</string>
+    <string name="answer">...</string>
+    <string name="WIN">YOU WON!!!!!</string>
+</resources>
