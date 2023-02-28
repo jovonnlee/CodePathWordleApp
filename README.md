@@ -32,7 +32,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Screencast from 02-24-2023 09:01:22 PM.webm](https://user-images.githubusercontent.com/91495430/221340868-97483241-a01e-4a3d-8235-8f9079c5b848.webm)
+[ezgif com-video-to-gif(1)](https://user-images.githubusercontent.com/91495430/221798003-f305f5ed-84f2-422a-b614-b71189f5faf8.gif)
+
+[ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/91495430/221797975-8e6320d8-e19e-47d1-800f-f0ba47f18d18.gif)
 
 <!-- -->
 GIF created with ...  EZgif
